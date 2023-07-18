@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>
-            hello
-        </h1>
+        <h1>Registration Form</h1>
+       <form>
+        <fieldset>
+        <legend>Step 1:Personal Information</legend>
+        <label for="n">Name: </label>
+        <input type="text" id="n"/>
+        <br>
+        <label>Gender: </label>
+        <select>
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+        <br>
+        <label>Interests: </label>
+        <br>
+        <input type="checkbox" name="interest"/>
+        <label>Reading</label>
+        <input type="checkbox" name="interest"/>
+        <label>Sports</label>
+        
+            </fieldset>
+       </form>
+       <form>
+        <fieldset>
+            <legend>Step 1:Account Information</legend>
+            <label for="un">UserName: </label>
+            <input type="text" id="un"/>
+            <br>
+            <label for="p">Password: </label>
+            <input type="password" id="p"/>
+            <br>
+            <label>Country: </label>
+            <select>
+                <option>Jordan</option>
+                <option>Lebanon</option>
+            </select>
+            <br>
+            <label>Preferred Language: </label>
+            <br>
+            <input type="radio" name="language"/>
+            <label>English</label>
+            <input type="radio" name="language"/>
+            <label>Spanish</label>
+            
+                </fieldset>
+
+       </form>
+       <button>Submit</button>
     </body>
 </html>
